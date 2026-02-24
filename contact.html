@@ -13,19 +13,50 @@
       crossorigin="anonymous"
     />
 
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon" href="favicon.ico" />
 
     <title>Contact</title>
   </head>
-  <body>
+  <body class="d-flex flex-column min-vh-100">   
+
     <header>
-
-      <div>
-        <h1 class="display-4">Contact us</h1>
-      </div>
-
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Bootstrap101</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
+    <main class="flex-grow-1">
+
+    </main>    
     <main>
       <form>
         <div class="mb-3">
@@ -43,6 +74,12 @@
     </main>
 
 
-    <footer>All Rights Reserved &copy; 2026 WF Group</footer>
+    <footer class="bg-dark text-light py-1">
+      <div class="container text-center">
+        <p class="mb-0">All Rights Reserved &copy; 2026 WF Group</p>
+      </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
